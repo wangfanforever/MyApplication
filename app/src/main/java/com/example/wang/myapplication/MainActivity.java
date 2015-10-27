@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         NBSAppAgent.setLicenseKey("2ded876e81d54e7990c57f6921748f47").withLocationServiceEnabled(true).start(this);
+        NBSAppAgent.setLicenseKey("2ded876e81d54e7990c57f6921748f47").withLocationServiceEnabled(true).start(this);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
